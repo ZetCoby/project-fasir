@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import Story from './components/story/story';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+class App extends Component {
+
+  state = {
+    storyList: []
+  }
+  
+  componentDidMount() {
+    fetch('https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty')
+    .then(res => res.json())
+    .then(data => {
+      const storyList = data.map(id => {
+        return <Story id={id}></Story>
+      })
+      this.setState({storyList});
+    })
+    .catch(console.log)
+  }
+
+  render() {
+    return (
+        <div className="app">
+          {this.state.storyList}
+        </div>
+      );
+    }
+  }
 
 export default App;
