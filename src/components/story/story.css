@@ -2,20 +2,40 @@
     display: flex;
     width: 100%;
     max-width: 600px;
-    background: white;
-    border: 1px solid #f1f1f1;
+    background: #01579B;
+    border-bottom: 1px solid #0277BD;
     clear: both;
     margin: auto;
-    margin-bottom: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.story-wrapper:hover {
+    background: #0277BD;
 }
 
 .points {
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 50px;
     text-align: center;
 }
 
 .content {
+    padding: 5px 8px;
     width: calc(100% - 51px);
-    border-left: 1px solid #f1f1f1;
+    border-left: 1px solid #0277BD;
+}
+
+.content:hover {
+    border-left: 1px solid #01579B;
+}
+
+.details {
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.title {
 }
