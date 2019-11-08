@@ -14,6 +14,13 @@
     background: #0277BD;
 }
 
+.story-wrapper a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    width:100%;
+}
+
 .points {
     display: flex;
     justify-content: center;

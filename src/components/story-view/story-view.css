@@ -1,0 +1,17 @@
+.story-view-wrapper{
+    background: #f1f1f1;
+    padding: 25px;
+}
+
+.story-view-wrapper .title a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.story-view-wrapper .title a:hover {
+    color: #000;
+}
+
+.story-view-wrapper .title{
+    font-size:24px;
+}
