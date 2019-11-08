@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e76fb35e246c9dd89a03de09f478cc97",
+    "revision": "44aa58ff68e3f597b0b018de51930cf5",
     "url": "/project-fasir/index.html"
   },
   {
-    "revision": "f069d4467dd7bd5e1952",
+    "revision": "bf407b36a48c77cdf8f0",
     "url": "/project-fasir/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "b67b0e1803769b162834",
+    "revision": "d5468eaf207cc40e4b48",
     "url": "/project-fasir/static/css/main.57ac1925.chunk.css"
   },
   {
-    "revision": "f069d4467dd7bd5e1952",
-    "url": "/project-fasir/static/js/2.a1879a1d.chunk.js"
+    "revision": "bf407b36a48c77cdf8f0",
+    "url": "/project-fasir/static/js/2.48d4259d.chunk.js"
   },
   {
-    "revision": "b67b0e1803769b162834",
-    "url": "/project-fasir/static/js/main.f563e3de.chunk.js"
+    "revision": "d5468eaf207cc40e4b48",
+    "url": "/project-fasir/static/js/main.33ae7924.chunk.js"
   },
   {
     "revision": "e0f9cab623fd7380261c",

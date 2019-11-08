@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/project-fasir/precache-manifest.b6477e24b8c6622e2f273e923513b6d8.js"
+  "/project-fasir/precache-manifest.6bf305b485afcdc6e7b4fe64addfbe64.js"
 );
 
 self.addEventListener('message', (event) => {
