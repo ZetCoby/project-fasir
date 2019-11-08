@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/project-fasir/static/css/main.57ac1925.chunk.css",
+    "main.js": "/project-fasir/static/js/main.f563e3de.chunk.js",
+    "main.js.map": "/project-fasir/static/js/main.f563e3de.chunk.js.map",
+    "runtime~main.js": "/project-fasir/static/js/runtime~main.2345d1aa.js",
+    "runtime~main.js.map": "/project-fasir/static/js/runtime~main.2345d1aa.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/project-fasir/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.a1879a1d.chunk.js": "/project-fasir/static/js/2.a1879a1d.chunk.js",
+    "static/js/2.a1879a1d.chunk.js.map": "/project-fasir/static/js/2.a1879a1d.chunk.js.map",
+    "index.html": "/project-fasir/index.html",
+    "precache-manifest.b6477e24b8c6622e2f273e923513b6d8.js": "/project-fasir/precache-manifest.b6477e24b8c6622e2f273e923513b6d8.js",
+    "service-worker.js": "/project-fasir/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/project-fasir/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.57ac1925.chunk.css.map": "/project-fasir/static/css/main.57ac1925.chunk.css.map"
+  }
+}
